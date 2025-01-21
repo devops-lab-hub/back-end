@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo API Server</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gradient-to-br from-purple-500 to-pink-500 min-h-screen">
+    <div class="container mx-auto px-4 py-16">
+      <div class="bg-white rounded-lg shadow-xl p-8 max-w-2xl mx-auto">
+        <h1 class="text-4xl font-bold text-center text-gray-800 mb-6">Bienvenue sur le Serveur Todo API</h1>
+        <div class="space-y-6">
+          <div class="bg-purple-50 rounded-lg p-6">
+            <h2 class="text-2xl font-semibold text-purple-800 mb-4">Points de terminaison API</h2>
+            <ul class="space-y-3">
+              <li class="flex items-center">
+                <span class="bg-green-500 text-white px-3 py-1 rounded-md text-sm font-mono mr-3">GET</span>
+                <span class="text-gray-700">/api/todos</span>
+              </li>
+              <li class="flex items-center">
+                <span class="bg-blue-500 text-white px-3 py-1 rounded-md text-sm font-mono mr-3">POST</span>
+                <span class="text-gray-700">/api/todos</span>
+              </li>
+              <li class="flex items-center">
+                <span class="bg-yellow-500 text-white px-3 py-1 rounded-md text-sm font-mono mr-3">PUT</span>
+                <span class="text-gray-700">/api/todos/:id</span>
+              </li>
+              <li class="flex items-center">
+                <span class="bg-red-500 text-white px-3 py-1 rounded-md text-sm font-mono mr-3">DELETE</span>
+                <span class="text-gray-700">/api/todos/:id</span>
+              </li>
+            </ul>
+          </div>
+          <div class="text-center text-gray-600">
+            <p>Le serveur fonctionne sur le port 3000</p>
+            <p class="text-sm mt-2">Connecté à MongoDB</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
